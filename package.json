@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "keywords": [],
-    "main": "src/index.js",
+    "main": "index.js",
     "dependencies": {
     },
     "devDependencies": {},
