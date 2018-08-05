@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="reqBtn">请求</button>
+    <form id="form">
+        <input type="text" name="name" />
+        <input type="password" name="pwd" />
+        <select name="hob" multiple>
+            <option value="">请选择</option>
+            <option value="ball">球类运动</option>
+            <option value="music">音乐</option>
+            <option value="food">吃货</option>
+        </select>
+        <select name="sex">
+            <option value="boy">男</option>
+            <option value="girl">女</option>
+        </select>
+        <input type="radio" name="isHun" value="yes" />是
+        <input type="radio" name="isHun" value="no" />否
+    </form>
+    <button id="sendFormBtn">异步提交表单</button>
+
+    <button id="sendFromDataBtn">使用FormData发送数据</button>
+
+    <button id="getBigImgBtn">来张超大尺寸图片</button>
+
+    <button id="progressEventBtn">进度事件</button>
+
+    <button id="jsonpBtn">JSONP请求</button>
+
+    <section>
+        <h2>web sockets</h2>
+        <div>
+            <input type="text" id="wsAccessAddr" placeholder="ws://IP或域名:端口" value="ws://121.40.165.18:8800" />
+            <button id="wsAccessBtn">建立连接</button>
+            <button id="wsCloseBtn">断开连接</button>
+        </div>
+        
+        <input type="text" id="wsText" />
+        <button id="webSocketBtn">发送</button>
+        <div id="messShowDiv" style="border: 1px solid #ddd; width: 500px; height: 400px; overflow: auto;">
+            
+        </div>
+    </section>
+    <script src="xhr.js"></script>
+</body>
+
+</html>
