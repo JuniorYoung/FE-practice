@@ -1,0 +1,6 @@
+Mike John	waffie	80	2
+Mike John	blender	100	1
+Mike John	knife	10	4
+Adidas	waffie	80	2
+Adidas	blender	100	1
+Adidas	knife	10	4
